@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, initial-scale=1.0, user-scalable=no">
+        <meta name="format-detection" content="telephone=no">
+        <title>Property Fox | Calculator</title>
+        
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700" rel="stylesheet">
+        <link type="text/css" rel="stylesheet" href="css/jquery-ui.css">
+        <link type="text/css" rel="stylesheet" href="css/style.css">
+        
+        <script type="text/javascript" src="scripts/jquery-1.12.4.min.js"></script>
+        <script type="text/javascript" src="scripts/jquery-ui.js"></script>
+        <script type="text/javascript" src="scripts/jquery.ui.touch-punch.min.js"></script>
+        <script type="text/javascript" src="scripts/common-scripts.js"></script>
+    </head>
+
+    <body>
+        <div class="main-wrap">
+            <section class="main-content-section home-content">
+                <div class="content-inner-wrap">
+                   <div class="how-much-save-content">
+                       <h3>How much can you save?</h3>
+                       <div class="how-much-inner clear">
+                          <div class="how-much-deals">
+                              <div class="property-price-info">
+                                  <div class="price-range content-expand clear">
+                                      <div class="foldings">
+                                          <p>Property Price</p>
+                                      </div>
+                                      <div class="expanded-content range-slider-warp">
+                                          <div class="pricingrange-bar">
+                                              <div id="pricingRange">
+                                                  <div id="custom-handle" class="ui-slider-handle"></div>
+                                              </div>
+                                          </div>
+                                          <div class="range-value">
+                                              <div class="price-value-row">
+                                                  <div id="minRange" class="price-value"></div>
+                                              </div>
+                                              <div class="price-value-row">
+                                                  <div id="maxRange" class="price-value">R10,000,000</div>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                                  
+                                  <div class="progress-range content-expand clear">
+                                      <div class="foldings">
+                                          <p>Traditional Agent Commission</p>
+                                      </div>
+                                      <div class="expanded-content range-slider-warp">
+                                          <div class="progressRange-bar">
+                                              <div id="progressRange">
+                                                  <div id="progressRangehandle" class="ui-slider-handle"></div>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                           <div class="traditional-agent-info"> 
+                               <p>Selling your property for <span>1.5%</span><br> with<b> PropertyFox </b>you could <b class="mobi">save</b></p>
+                               <div class="agent-icon"><img src="images/img-save.png" alt=""></div>
+                               <h2 id="netPrice"></h2>
+                           </div>
+                       </div>
+                   </div>
+                </div>
+            </section>
+        </div>
+    </body>
+</html>
